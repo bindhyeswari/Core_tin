@@ -51,6 +51,13 @@ console.log(arr_num.sort(function (a, b) {
     else return 0;
 }));
 
+var network_string = JSON.stringify(parent);
+console.log(network_string);
+var z = JSON.parse(network_string);
+console.log(z.type);
+
+
+
 
 
 
